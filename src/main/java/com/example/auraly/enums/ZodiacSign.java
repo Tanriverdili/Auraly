@@ -1,6 +1,12 @@
-package com.astro.app.auraly.enums;
+package com.example.auraly.enums;
 
 public enum ZodiacSign {
-    ARIES,TAURUS,GEMINI,CANCER,LEO,VIRGO,
-    LIBRA,SCORPIO,SAGITTARIUS,CAPRICORN,AQUARIUS,PISCES
-}
+    ARIES, TAURUS, GEMINI, CANCER, LEO, VIRGO,
+    LIBRA, SCORPIO, SAGITTARIUS, CAPRICORN, AQUARIUS, PISCES;
+
+
+    }
+
+
+
+

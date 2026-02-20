@@ -6,15 +6,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
-
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "horoscopes", uniqueConstraints = @UniqueConstraint(columnNames = {"zodiac_sign", "date"}))
 @Data
-@Table(name="horoscopes", uniqueConstraints = @UniqueConstraint(columnNames = {"zodiac_sign", "date"}))
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class HoroscopeEntity {
+
     @jakarta.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,6 +29,55 @@ public class HoroscopeEntity {
 
     @Column(nullable = false, length = 500)
     private String message;
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
