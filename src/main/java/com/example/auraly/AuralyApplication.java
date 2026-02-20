@@ -9,7 +9,6 @@ import org.springframework.boot.persistence.autoconfigure.EntityScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-//@EntityScan("com.example.auraly.model.entity")
 @EnableScheduling
 
 public class AuralyApplication implements CommandLineRunner {
