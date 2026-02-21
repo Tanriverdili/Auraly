@@ -1,12 +1,7 @@
 package com.example.auraly.repository;
-
-
-
-
 import com.example.auraly.model.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 
 
